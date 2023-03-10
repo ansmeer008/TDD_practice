@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678428488382" clover="3.2.0">
-  <project timestamp="1678428488382" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7" elements="20" coveredelements="20" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
-    <file name="calculator.js" path="/Users/jade/test/src/calculator.js">
-      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
-      <line num="3" count="10" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="31" count="3" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
+<coverage generated="1678430994388" clover="3.2.0">
+  <project timestamp="1678430994388" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+    <file name="async.js" path="/Users/jade/test/src/async.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
