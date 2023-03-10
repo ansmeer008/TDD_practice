@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678425115667" clover="3.2.0">
-  <project timestamp="1678425115667" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="add.js" path="/Users/jade/test/src/add.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
+<coverage generated="1678426857942" clover="3.2.0">
+  <project timestamp="1678426857942" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="15" coveredelements="15" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="calculator.js" path="/Users/jade/test/src/calculator.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <line num="3" count="7" type="stmt"/>
+      <line num="7" count="6" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
