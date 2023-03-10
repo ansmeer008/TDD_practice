@@ -1,4 +1,7 @@
 function add(a, b) {
+  if (a + b >= 10) {
+    throw new Error("this is not possible");
+  }
   return a + b;
 }
 
