@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678522484934" clover="3.2.0">
-  <project timestamp="1678522484934" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
-    <file name="check.js" path="/Users/jade/test/src/mock/check/check.js">
-      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
+<coverage generated="1678716287349" clover="3.2.0">
+  <project timestamp="1678716287350" name="All files">
+    <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4" elements="14" coveredelements="10" complexity="0" loc="8" ncloc="8" packages="1" files="2" classes="2"/>
+    <file name="product_client.js" path="/Users/jade/test/src/mock/product/product_client.js">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="product_service_no_di.js" path="/Users/jade/test/src/mock/product/product_service_no_di.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
