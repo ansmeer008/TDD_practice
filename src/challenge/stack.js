@@ -5,17 +5,29 @@
 
 class Stack {
   constructor() {
-    this.stack = [];
+    this.array = [];
+  }
+
+  size() {
+    return this.array.length;
   }
 
   push(item) {
-    const newStack = [...this.stack, item];
-    this.stack = newStack;
+    this.array.push(item);
   }
 
   pop() {
-    const newStack = this.stack.slice(0, this.stack.length - 1);
-    this.stack = newStack;
+    if (this.array.length === 0) {
+      throw new Error("Stack is empty");
+    }
+    return this.array.pop();
+  }
+
+  peek() {
+    if (this.array.length === 0) {
+      throw new Error("Stack is empty");
+    }
+    return this.array[this.size() - 1];
   }
 }
 

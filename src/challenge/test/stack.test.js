@@ -6,21 +6,42 @@ describe("Stack", () => {
     stak = new Stack();
   });
 
-  it("inits with empty array", () => {
-    expect(stak.stack.length).toBe(0);
+  it("is created empty", () => {
+    expect(stak.size()).toBe(0);
   });
 
-  it("if push one item, it should be positioned last of the array", () => {
+  it("allows to push item", () => {
     stak.push(33);
-    expect(stak.stack[stak.stack.length - 1]).toBe(33);
+    expect(stak.size()).toBe(1);
   });
 
-  it("if pop the stack, it should be deleted last item", () => {
-    stak.push(23);
-    stak.push("hi");
-    stak.push(1);
-    stak.pop();
-    expect(stak.stack.length).toBe(2);
-    expect(stak.stack[stak.stack.length - 1]).toBe("hi");
+  describe("pop", () => {
+    it("throws an error if stack is empty", () => {
+      expect(() => {
+        stak.pop();
+      }).toThrow("Stack is empty");
+    });
+
+    it("returns the last pushed item and remove it from the stack", () => {
+      stak.push("banana");
+      stak.push("apple");
+      expect(stak.pop()).toBe("apple");
+      expect(stak.size()).toBe(1);
+    });
+  });
+
+  describe("peek", () => {
+    it("throws an error if stack is empty", () => {
+      expect(() => {
+        stak.peek();
+      }).toThrow("Stack is empty");
+    });
+
+    it("returns the last pushed item but keeps it in the stack", () => {
+      stak.push("banana");
+      stak.push("apple");
+      expect(stak.peek()).toBe("apple");
+      expect(stak.size()).toBe(2);
+    });
   });
 });
