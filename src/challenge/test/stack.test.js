@@ -1,5 +1,8 @@
 const Stack = require("../stack");
 
+//테스트를 진행할 때는 Stack에서 제공하는 API만을 가지고 해야함.
+//내가 구현했던 코드는 array라는 Stack의 내부 구현사항을 가지고 테스트를 했엇음.
+
 describe("Stack", () => {
   let stak;
   beforeEach(() => {
